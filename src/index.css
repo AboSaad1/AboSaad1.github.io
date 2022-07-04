@@ -164,21 +164,16 @@ label {
 
 @media (max-width: 500px) {
   body {
-      font-size: .85rem;
+      font-size: 10px;
+      margin: 5px;
   }
-  
-  .answer-container {
-      flex-direction: column;
-      width: 100%;
-  }
-  
   .answer {
       text-align: center;
-      font-size: 1rem;
+      font-size: 12px;
   }
 
-  .Questions-continer {
-      min-width: 325px;
+  .Questions {
+    margin: 100px;
   }
   
   .Check--button {
@@ -187,7 +182,8 @@ label {
   }
   
   .main--buttons{
-      gap: .25em;
+      margin-top: 40px;
+      gap: 5px;
       flex-direction: column;
   }
 
